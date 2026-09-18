@@ -6,12 +6,12 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "terraform/environments/production/**"
+      - "environments/production/**"
       - ".github/workflows/cd-production.yml"
   pull_request:
     branches: ["main"]
     paths:
-      - "terraform/environments/production/**"
+      - "environments/production/**"
       - ".github/workflows/cd-production.yml"
 
 permissions:
